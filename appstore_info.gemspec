@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'appstore_info/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'appstore_info'
+  spec.name          = 'eq_appstore_info'
   spec.version       = AppStoreInfo::VERSION
   spec.authors       = ['Ricardo Otero', 'Maximilian Szengel']
   spec.email         = ['oterosantos@gmail.com', 'szengel@equinux.com']
