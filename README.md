@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rikas/app_store_info.svg)](https://travis-ci.org/rikas/app_store_info) [![Dependency Status](https://gemnasium.com/rikas/app_store_info.svg)](https://gemnasium.com/rikas/app_store_info)
+[![Build Status](https://travis-ci.org/equinux/app_store_info.svg)](https://travis-ci.org/equinux/app_store_info) [![Dependency Status](https://gemnasium.com/equinux/app_store_info.svg)](https://gemnasium.com/equinux/app_store_info)
 
 # AppStoreInfo
 
@@ -57,6 +57,7 @@ app.universal? # => false
 ```
 
 Last, you can check the details about the latest version of the app:
+
 ```ruby
 current_version = app.current_version
 
@@ -67,13 +68,13 @@ current_version.release_notes       # => "We popped some pesky bugs!"
 ```
 
 If you need to get the genre names there's an helper method for that:
+
 ```ruby
 app.genre_names # => ["Games", "Action", "Arcade", "Entertainment"]
 ```
 
 Keep in mind that the information can be localized if you request for a particular region
 information. Ratings, currency, price etc. can change.
-
 
 ## Development
 
@@ -83,8 +84,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rikas/app_store_info.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/equinux/app_store_info.
 
 ## License
 
