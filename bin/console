@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'app_store_info'
+require 'appstore_info'
 
 require 'pry'
 Pry.start

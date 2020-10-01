@@ -1,17 +1,17 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'app_store_info/version'
+require 'appstore_info/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'app_store_info'
+  spec.name          = 'appstore_info'
   spec.version       = AppStoreInfo::VERSION
   spec.authors       = ['Ricardo Otero', 'Maximilian Szengel']
   spec.email         = ['oterosantos@gmail.com', 'szengel@equinux.com']
 
   spec.summary       = 'App Store parser'
   spec.description   = 'Get details about any app in the Apple App Store'
-  spec.homepage      = 'https://github.com/equinux/app_store_info'
+  spec.homepage      = 'https://github.com/equinux/appstore_info'
   spec.license       = 'MIT'
 
   spec.bindir        = 'exe'

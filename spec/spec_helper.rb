@@ -3,7 +3,7 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'vcr'
 require 'faraday'
 require 'webmock/rspec'
-require 'app_store_info'
+require 'appstore_info'
 
 include AppStoreInfo
 

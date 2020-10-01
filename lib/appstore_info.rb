@@ -1,8 +1,8 @@
-require 'app_store_info/version'
-require 'app_store_info/api'
-require 'app_store_info/app'
-require 'app_store_info/regions'
-require 'app_store_info/genres'
+require 'appstore_info/version'
+require 'appstore_info/api'
+require 'appstore_info/app'
+require 'appstore_info/regions'
+require 'appstore_info/genres'
 
 module AppStoreInfo
   DEFAULT_REGION = 'us'.freeze

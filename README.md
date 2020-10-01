@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/equinux/app_store_info.svg)](https://travis-ci.org/equinux/app_store_info) [![Dependency Status](https://gemnasium.com/equinux/app_store_info.svg)](https://gemnasium.com/equinux/app_store_info)
+[![Build Status](https://travis-ci.org/equinux/appstore_info.svg)](https://travis-ci.org/equinux/appstore_info) [![Dependency Status](https://gemnasium.com/equinux/appstore_info.svg)](https://gemnasium.com/equinux/appstore_info)
 
 # AppStoreInfo
 
@@ -20,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install app_store_info
+    $ gem install appstore_info
 
 ## Usage
 
@@ -84,7 +84,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/equinux/app_store_info.
+Bug reports and pull requests are welcome on GitHub at https://github.com/equinux/appstore_info.
 
 ## License
 
